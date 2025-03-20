@@ -1,0 +1,11 @@
+# Non Environment Dependent Imports
+kaggle
+numpy
+matplotlib
+
+# Alter the two lines below to change whether or not to enable CUDA, ROCm, or CPU for running the model.
+#--extra-index-urlhttps://download.pytorch.org/whl/rocm6.2.4 # ROCm for AMD GPU support (ONLY LINUX)
+--extra-index-url https://download.pytorch.org/whl/cu126 # CUDA url for pytorch. Windows and Linux Supported
+torch
+torchvision
+torchaudio
