@@ -177,3 +177,5 @@ cython_debug/
 # Users added
 .kaggle/
 .fleet/
+src/submission.csv
+src/model.pth
